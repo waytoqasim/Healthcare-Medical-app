@@ -11,7 +11,7 @@
 
   
   <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
 
  
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -40,7 +40,7 @@
         <i class="bi bi-clock"></i> Monday - Saturday, 8AM to 10PM
       </div>
       <div class="d-flex align-items-center">
-        <i class="bi bi-phone"></i> Call us now +1 5589 55488 55
+        <i class="bi bi-phone"></i> Call us now +61 123 456 789
       </div>
     </div>
   </div>
@@ -57,31 +57,13 @@
           <li><a class="nav-link scrollto " href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
           <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="index.html#departments">Departments</a></li>
-          <li><a class="nav-link scrollto" href="index.html#doctors">Doctors</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
+          <li><a class="nav-link scrollto" href="bmi.html">BMI</a></li>
           <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span> Appointment</a>
+      <a href="tel:+61123456789" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span> Appointment</a>
 
     </div>
   </header><!-- End Header -->
@@ -186,7 +168,7 @@
         <div class="text-center">
           <h3>In an emergency? Need help now?</h3>
           <p> In an emergency? Don't hesitate to reach out. We're here to provide immediate assistance and support.</p>
-          <a class="cta-btn scrollto" href="#appointment">Make an Make an Appointment</a>
+          <a class="cta-btn scrollto" href="tel:+61123456789">Call Us</a>
         </div>
 
       </div>
@@ -332,62 +314,7 @@
       </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Appointment Section ======= -->
-    <section id="appointment" class="appointment section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Make an Appointment</h2>
-          <p>To schedule an appointment, please contact our clinic during business hours or use our online appointment booking system for your convenience. We look forward to assisting you with your healthcare needs.</p>
-        </div>
-
-        <form action="forms/appointment.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
-          <div class="row">
-            <div class="col-md-4 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-            </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-            </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" required>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 form-group mt-3">
-              <input type="datetime" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" required>
-            </div>
-            <div class="col-md-4 form-group mt-3">
-              <select name="department" id="department" class="form-select">
-                <option value="">Select Department</option>
-                <option value="Department 1">Department 1</option>
-                <option value="Department 2">Department 2</option>
-                <option value="Department 3">Department 3</option>
-              </select>
-            </div>
-            <div class="col-md-4 form-group mt-3">
-              <select name="doctor" id="doctor" class="form-select">
-                <option value="">Select Doctor</option>
-                <option value="Doctor 1">Doctor 1</option>
-                <option value="Doctor 2">Doctor 2</option>
-                <option value="Doctor 3">Doctor 3</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
-          </div>
-          <div class="my-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
-          </div>
-          <div class="text-center"><button type="submit">Make an Appointment</button></div>
-        </form>
-
-      </div>
-    </section><!-- End Appointment Section -->
+   
 
     <!-- ======= Departments Section ======= -->
     <section id="departments" class="departments">
@@ -731,10 +658,9 @@
           <div class="footer-info">
             <h3>Healthcare Medical Clinic</h3>
             <p>
-              123 Main Street <br>
-              New York, NY 10001, USA<br><br>
-              <strong>Phone:</strong> +1 123 456 7890<br>
-              <strong>Email:</strong> info@example.com<br>
+              151 Sturt St, Southbank VIC 3006, Australia<br><br>
+              <strong>Phone:</strong> +61 123 456 789<br>
+              <strong>Email:</strong> info@healthcareclinic.com<br>
             </p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -786,7 +712,7 @@
       &copy; Copyright <strong><span>Healthcare Medical Clinic</span></strong>. All Rights Reserved
     </div>
     <div class="credits">
-      Designed by <a href="#">Me</a>
+      Designed by <a href="#">Group D1</a>
     </div>
   </div>
 </footer><!-- End Footer -->
